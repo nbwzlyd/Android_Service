@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UI规范 -->
+
+    <style name="tv_base" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--list start-->
+
+    <style name="tv_base_list" parent="@style/tv_base">
+        <item name="android:textSize">@dimen/text_size_list</item>
+    </style>
+
+    <style name="tv_list_secondary_style" parent="@style/tv_base_list">
+        <item name="android:textColor">@color/main_secondary</item>
+    </style>
+
+    <style name="tv_list_disable_style" parent="@style/tv_base_list">
+        <item name="android:textColor">@color/main_disable</item>
+    </style>
+
+    <style name="tv_list_hint_style" parent="@style/tv_base_list">
+        <item name="android:textColor">@color/main_hint</item>
+    </style>
+
+    <style name="tv_list_white_style" parent="@style/tv_base_list">
+        <item name="android:textColor">@color/main_white</item>
+    </style>
+
+    <style name="tv_list_primary_style" parent="@style/tv_base_list">
+        <item name="android:textColor">@color/main_primary</item>
+    </style>
+
+    <style name="tv_list_green_style" parent="@style/tv_base_list">
+        <item name="android:textColor">@color/main_green</item>
+    </style>
+
+    <style name="tv_list_orange_style" parent="@style/tv_base_list">
+        <item name="android:textColor">@color/main_orange</item>
+    </style>
+
+    <!--list end-->
+
+    <!--info end-->
+
+    <style name="tv_base_info" parent="@style/tv_base">
+        <item name="android:textSize">@dimen/text_size_info</item>
+    </style>
+
+    <style name="tv_info_hint_style" parent="@style/tv_base_info">
+        <item name="android:textColor">@color/main_hint</item>
+    </style>
+
+    <style name="tv_info_white_style" parent="@style/tv_base_info">
+        <item name="android:textColor">@color/main_white</item>
+    </style>
+
+    <style name="tv_info_null_style" parent="@style/tv_base_info">
+        <item name="android:textColor">@color/main_null</item>
+    </style>
+
+    <style name="tv_info_primary_style" parent="@style/tv_base_info">
+        <item name="android:textColor">@color/main_primary</item>
+    </style>
+
+    <style name="tv_info_secondary_style" parent="@style/tv_base_info">
+        <item name="android:textColor">@color/main_secondary</item>
+    </style>
+
+    <style name="tv_info_green_style" parent="@style/tv_base_info">
+        <item name="android:textColor">@color/main_green</item>
+    </style>
+
+    <style name="tv_info_orange_style" parent="@style/tv_base_info">
+        <item name="android:textColor">@color/main_orange</item>
+    </style>
+
+    <style name="tv_info_link_style" parent="@style/tv_base_info">
+        <item name="android:textColor">@color/main_link</item>
+    </style>
+
+    <!--info end-->
+
+    <!--hint start-->
+
+    <style name="tv_base_hint" parent="@style/tv_base">
+        <item name="android:textSize">@dimen/text_size_hint</item>
+    </style>
+
+    <style name="tv_hint_hint_style" parent="@style/tv_base_hint">
+        <item name="android:textColor">@color/main_hint</item>
+    </style>
+
+    <style name="tv_hint_secondary_style" parent="@style/tv_base_hint">
+        <item name="android:textColor">@color/main_secondary</item>
+    </style>
+
+    <style name="tv_hint_primary_style" parent="@style/tv_base_hint">
+        <item name="android:textColor">@color/main_primary</item>
+    </style>
+
+    <style name="tv_hint_link_style" parent="@style/tv_base_hint">
+        <item name="android:textColor">@color/main_link</item>
+    </style>
+
+    <style name="tv_hint_disable_style" parent="@style/tv_base_hint">
+        <item name="android:textColor">@color/main_disable</item>
+    </style>
+
+    <style name="tv_hint_white_style" parent="@style/tv_base_hint">
+        <item name="android:textColor">@color/main_white</item>
+    </style>
+
+    <style name="tv_hint_green_style" parent="@style/tv_base_hint">
+        <item name="android:textColor">@color/main_green</item>
+    </style>
+
+    <style name="tv_hint_orange_style" parent="@style/tv_base_hint">
+        <item name="android:textColor">@color/main_orange</item>
+    </style>
+
+    <!--hint end-->
+
+    <!--title start-->
+
+    <style name="tv_base_title" parent="@style/tv_base">
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="tv_title_primary_style" parent="@style/tv_base_title">
+        <item name="android:textColor">@color/main_primary</item>
+    </style>
+
+    <style name="tv_title_hint_style" parent="@style/tv_base_title">
+        <item name="android:textColor">@color/main_hint</item>
+    </style>
+
+    <style name="tv_title_secondary_style" parent="@style/tv_base_title">
+        <item name="android:textColor">@color/main_secondary</item>
+    </style>
+
+    <style name="tv_title_orange_style" parent="@style/tv_base_title">
+        <item name="android:textColor">@color/main_orange</item>
+    </style>
+
+    <style name="tv_title_white_style" parent="@style/tv_base_title">
+        <item name="android:textColor">@color/main_white</item>
+    </style>
+
+    <!--title end-->
+
+    <!--xsmall start-->
+
+    <style name="tv_base_xsmall" parent="@style/tv_base">
+        <item name="android:textSize">@dimen/text_size_xsmall</item>
+    </style>
+
+    <style name="tv_xsmall_hint_style" parent="@style/tv_base_xsmall">
+        <item name="android:textColor">@color/main_hint</item>
+    </style>
+
+    <style name="tv_xsmall_secondary_style" parent="@style/tv_base_xsmall">
+        <item name="android:textColor">@color/main_secondary</item>
+    </style>
+
+    <style name="tv_xsmall_white_style" parent="@style/tv_base_xsmall">
+        <item name="android:textColor">@color/main_white</item>
+    </style>
+
+    <!--xsmall end-->
+
+    <!--xlarge start-->
+
+    <style name="tv_base_xlarge" parent="@style/tv_base">
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+    </style>
+
+    <style name="tv_xlarge_primary_style" parent="@style/tv_base_xlarge">
+        <item name="android:textColor">@color/main_primary</item>
+    </style>
+
+    <!--xlarge end-->
+
+    <!--##########################################################################-->
+    <!--##########################################################################-->
+
+    <!--line start-->
+
+    <style name="Line">
+        <item name="android:background">@color/main_line</item>
+    </style>
+
+    <style name="Line.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_hight</item>
+    </style>
+
+    <style name="Line.Vertical">
+        <item name="android:layout_width">@dimen/line_hight</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Line.Vertical.Dashed">
+        <item name="android:layerType">software</item>
+        <item name="android:background">@drawable/shape_dashed_vertical_line</item>
+    </style>
+
+    <style name="Line.Horizontal.Dashed">
+        <item name="android:layerType">software</item>
+        <item name="android:background">@drawable/shape_dashed_horizontal_line</item>
+    </style>
+
+    <!--line end-->
+
+</resources>

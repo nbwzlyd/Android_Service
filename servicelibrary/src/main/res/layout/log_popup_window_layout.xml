@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_log_window"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_logcat_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="Logcat"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/icon_rubbish_common"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/chk_stop_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="true" />
+        
+        <com.tongcheng.lib.serv.ui.view.ReboundView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/rv_small"
+            android:layout_marginLeft="20dp">
+        
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp"/>
+        
+        </com.tongcheng.lib.serv.ui.view.ReboundView>
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_home_chagray"
+            android:contentDescription="@null"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightblue" />
+
+</LinearLayout>

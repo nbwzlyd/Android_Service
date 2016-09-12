@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_main">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_search_container"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#FFEBECED">
+
+        <!-- 确认按钮 -->
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="11dp"
+            android:background="@drawable/corner_view"
+            android:text="@string/city_select_search_confirm"
+            android:textColor="@color/main_white"
+            android:textSize="@dimen/text_size_info"
+            android:visibility="gone" />
+
+        <!-- 搜索框 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/tv_confirm"
+            android:background="@drawable/bg_list_searchbox">
+
+            <ImageView
+                android:id="@+id/img_search_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/hotel_keyword_delete"
+                android:visibility="gone" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/img_search_clear"
+                android:background="@android:color/transparent"
+                android:completionThreshold="1"
+                android:drawableLeft="@drawable/icon_indicator_search_rest"
+                android:drawablePadding="9dip"
+                android:dropDownVerticalOffset="1dp"
+                android:ellipsize="end"
+                android:hint="@string/home_city_select_search_hint"
+                android:paddingLeft="12dp"
+                android:paddingRight="9dp"
+                android:singleLine="true"
+                android:textColor="@color/c_tcolor_dark"
+                android:textColorHint="@color/main_disable"
+                android:textSize="@dimen/text_size_info" />
+
+            <ImageView
+                android:id="@+id/img_speakButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:scaleType="center"
+                android:src="@drawable/icon_yuying"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/v_tab_container"
+        layout="@layout/tab_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ll_tab"
+        android:layout_below="@+id/rl_search_container"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lv_keywords_complete"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/v_tab_container"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:visibility="gone">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_list_empty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_keywords_complete"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/city_select_no_result"
+        android:textColor="@color/lightgray2"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <!-- 列表 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_city"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/lv_keywords_complete">
+
+        <ListView
+            android:id="@+id/lv_city"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:dividerHeight="0dip"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+
+        <com.tongcheng.android.common.city.basecity.IndexBar
+            android:id="@+id/index_bar"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/lv_city"
+            android:paddingBottom="4dp"
+            android:paddingTop="6dp" />
+
+        <TextView
+            android:id="@+id/tv_city_alpha"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/corners_city_tag_bg"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:textColor="@color/main_white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v_bg"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:visibility="gone"
+        android:layout_below="@+id/rl_search_container"
+        android:background="@drawable/line_list_filtrate_projection" />
+
+    <com.tongcheng.lib.serv.ui.view.LoadErrLayout
+        android:id="@+id/rl_err"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_main"
+        android:visibility="gone" />
+
+</RelativeLayout>

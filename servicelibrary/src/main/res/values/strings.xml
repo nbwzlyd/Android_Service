@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- fix bug for DatePickerDialog and TimePickerDialog start -->
+    <string name="date_time_done">完成</string>
+    <string name="date_picker_dialog_title">设置日期</string>
+    <string name="time_picker_dialog_title">设置时间</string>
+    <!-- fix bug for DatePickerDialog and TimePickerDialog end -->
+
+    <string name="app_name">同程旅游</string>
+    <string name="phone_number">4007991555</string>
+    <string name="phone_number_line">4007-991-555</string>
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+    <string name="book_title">预订</string>
+    <string name="search">搜索</string>
+    <string name="ok">是</string>
+    <string name="no">否</string>
+    <string name="capture_tip">请将二维码放在取景框内，即可自动扫描</string>
+    <string name="search_hint">搜索目的地/景点/酒店等</string>
+
+    <!-- 订单状态 -->
+    <string name="order_stutas_underway">进行中</string>
+    <string name="order_stutas_over">已结束</string>
+    <!-- 心愿单 -->
+    <string name="wish_submit">提交心愿中</string>
+    <!-- 语音 -->
+    <string name="down_startspeak">按住说话</string>
+    <string name="up_endspeak">松开结束</string>
+    <string name="speakEnd">说完了</string>
+    <string name="networkConnFailed">网络连接失败</string>
+    <string name="networkTimeout">网络太慢了</string>
+    <string name="textNotEmpty">文本框不能为空</string>
+    <string name="tv_chat_one">\"预订附近的景点\"</string>
+    <string name="tv_chat_two">\"三亚的景点门票\"</string>
+    <string name="tv_chat_three">\"订一张常州恐龙园的门票\"</string>
+    <string name="upload_voice">正在加载</string>
+
+    <!-- 订单填写页 -->
+    <string name="order_fill_passengerInfo">乘机人信息</string>
+    <string name="order_fill_orderInfo">预订人信息</string>
+    <string name="order_fill_hint">请先选择乘机人</string>
+    <string name="order_fill_name">姓名：</string>
+    <string name="order_fill_et_name">请输入预订人姓名</string>
+    <string name="order_fill_phone">手机：</string>
+    <string name="order_fill_et_phone">请输入预订人手机号码</string>
+    <string name="order_fill_sale">保险种类：</string>
+    <string name="order_fill_sell">报销凭证：</string>
+    <string name="order_fill_tv_sell">我不需要报销凭证</string>
+    <string name="order_fill_tv_price">行程费用</string>
+    <string name="order_fill_tv_discount">同程特惠</string>
+
+    <string name="cancel">取消</string>
+    <string name="show_phone_tip">是否拨打4007-991-555电话预订?</string>
+    <string name="show_errnetwork_tip">网络不给力，建议您检查网络状态！</string>
+    <string name="ok_dial">确认拨打</string>
+    <string name="err_phone_tip">不支持电话功能！</string>
+    <string name="system_promot">系统提示</string>
+    <string name="is_back_home">是否返回首页?</string>
+    <string name="progressTipNormal">努力加载中</string>
+    <string name="process_promot">官方合作，省钱省心，无需在线付款\n凭短信到景点窗口付款取票</string>
+
+    <!-- 公共 -->
+    <string name="city_select_title">选择目的城市</string>
+    <string name="home_city_select_title">选择城市</string>
+    <string name="home_city_select_search_hint">请输入城市名(如北京、bj、beijing)</string>
+    <string name="searchBox_hint_start">出发城市</string>
+    <string name="month">月</string>
+    <string name="today">今天</string>
+    <string name="common_walkthrough_download">下载中心</string>
+    <string name="order_hotel">酒店订单</string>
+    <string name="order_filter">筛选订单</string>
+    <string name="order_price">价格：</string>
+    <string name="order_checkin_date">入住日期：</string>
+    <string name="order_checkout_date">离店日期：</string>
+    <string name="order_detail">订单详情</string>
+    <string name="order_tuangou_detail">团购订单详情</string>
+    <string name="order_payOnline">在线支付</string>
+    <string name="order_comment">点评订单</string>
+    <string name="OK">确定</string>
+    <string name="save_common_card">"正在保存常用信用卡"</string>
+    <string name="loading_order_list">正在加载您的订单信息</string>
+    <string name="paying">正在进入安全支付环境，请稍后</string>
+    <string name="home_actionbar_search_hint">搜索</string>
+    <string name="map_loading">正在加载,请稍等...</string>
+
+    <!-- 攻略 -->
+    <string name="down_pull_cancle">下拉取消收藏</string>
+    <string name="down_pull_collection">下拉收藏此游记</string>
+    <string name="guide_download_complete_prompt">文件下载完成</string>
+    <string name="my_guide_text">我的收藏</string>
+    <string name="download_now">下载PDF</string>
+    <string name="strategy_loading_nearby">正在加载·</string>
+    <string name="loading_strategy_collection">正在加载您收藏的攻略</string>
+    <string name="strategy_collection_time">收藏时间：%1$s</string>
+
+    <!-- 攻略6.3 -->
+    <string name="loading_strategy_city">正在加载攻略目的地</string>
+
+    <!-- 微博分享 -->
+    <string name="weibosend">微博分享</string>
+    <string name="tencent">腾讯微博</string>
+    <string name="sina">新浪微博</string>
+    <string name="renren">人人网</string>
+    <string name="weibo_commit_btn">发送</string>
+
+    <!-- 快捷设置 -->
+    <string name="add_common_passenger">+添加新乘机人</string>
+    <string name="add_common_address">+添加新地址</string>
+    <string name="add_common_card">添加新常用信用卡</string>
+    <string name="common_passenger">常用乘机人</string>
+    <string name="commonpassenger">常用乘机人</string>
+    <string name="common_card">常用信用卡</string>
+    <string name="new_passenger">新乘机人</string>
+    <string name="newpassenger_et_hint">证件号码</string>
+    <string name="newpassenger_et_name_hint">姓名</string>
+    <string name="newpassenger_et_phone_hint">手机号码</string>
+    <string name="passenger_btn">提交修改</string>
+    <string name="newcard">新增信用卡</string>
+    <string name="newcard_et_hint">信用卡卡号</string>
+    <string name="newcard_et_vefity_hint">验证码( 三位数字 )</string>
+    <string name="newcard_et_name_hint">持卡人姓名</string>
+    <string name="newcard_btn">添加新信用卡</string>
+    <string name="newcard_checkbox">设置为默认信用卡</string>
+    <string name="newcard_et_number">证件号码</string>
+    <string name="quicksetting">个人资料</string>
+    <string name="quick_address">常用地址</string>
+    <string name="more">更多</string>
+    <string name="more_about">关于同程旅游</string>
+    <string name="more_help_center">帮助中心</string>
+    <string name="new_notice">最新公告</string>
+    <string name="newpassenger_type">请选择证件类型</string>
+    <string name="newpassenger_person_type">请选择乘机人类型</string>
+    <string name="commonaddress">常用地址</string>
+    <string name="newaddress">新增地址</string>
+    <string name="address_detail">详细地址</string>
+    <string name="address_email">邮编</string>
+    <string name="address_name">收件人姓名</string>
+    <string name="address_phone">收件人手机号码</string>
+    <string name="address_checkbox">设为默认地址</string>
+    <string name="spprovince_type">省</string>
+    <string name="spcity_type">市</string>
+    <string name="sparea_type">区/县</string>
+    <string name="birthday_hint">请输入出生日期</string>
+    <string name="newpassenger_gender_type">性别：</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="error_birthday">无效的出生日期</string>
+    <string name="error_birthday12">已满12周岁</string>
+    <string name="error_birthday2">暂不支持购买婴儿票</string>
+
+    <!-- 查无结果提醒 -->
+    <string name="search_empty_hotel">您好，暂时没有符合您要求的酒店，请您修改条件重新查询。</string>
+    <string name="search_empty_train">您好，暂时没有符合您要求的车次，请您修改条件重新查询。</string>
+    <string name="search_empty_hotel_nearby">抱歉，暂无周边酒店信息。</string>
+    <string name="search_empty_order">您目前没有订单信息。</string>
+    <string name="sacle">取消</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="abroad_guide">出境游攻略</string>
+    <string name="countary_guide">国内游攻略</string>
+    <string name="map_no_result">无法获取地图信息，请稍后再试</string>
+
+    <!-- 选择乘机人 -->
+    <string name="select_passenger_cardtype">证件类型</string>
+    <string name="passenger_cardtype">请选择证件类型</string>
+    <string name="select_passenger_cardnumber">证件号码</string>
+    <string name="passenger_cardnumber">请填写证件号码</string>
+    <string name="passenger_birthday">出生日期</string>
+    <string name="passenger_child_birthday">请选择出生日期</string>
+    <string name="str_card_introduce_flight">
+        1.多家银行及信用卡组织的授信,实名消费,安全消费。\n2.完备的风险控制体系。\n3.先进的技术保障,安全的网络,专线连接及加密方法。\n4.完善的管理机制,严格的人员筛选、专业的人员配备和角色分工。标准的处理流程和监控机制。
+    </string>
+    <string name="str_card_introduce_hotel">
+        五重体系保障您的信用卡安全\n1.国家高新企业认定\n2.多家银行及信用卡组织的授信，实名消费，安全消费\n3.完善的风险控制体系\n4.先进的网络安全保障技术，特设专线连接及加密方法\n5.全面标准化的人员管理监控机制
+    </string>
+    <string name="CashTicket_Rules">使用现金券预订带有"返"字或"减"字标识的产品，会扣除您现金券账户中的金额来返给您的奖金或直接抵扣支付金额。</string>
+
+    <!-- 查询不到提示文案 -->
+    <string name="loading_public_hotel_search_no">未找到符合的酒店~换个条件试试吧</string>
+    <string name="loading_public_hotel_room_search_no">此酒店暂无可售房型，看看其他酒店</string>
+
+    <!-- 通用 -->
+    <string name="loading_public_default">正在加载</string>
+    <string name="loading_public_search_sort">正在查询</string>
+    <string name="loading_public_order_unlogin">正在查询</string>
+    <string name="loading_public_order_write">正在跳转至订单填写页</string>
+    <string name="loading_public_order_submit">正在提交订单</string>
+    <string name="loading_public_order_creditcard">正在跳转至信用卡填写页面</string>
+    <string name="loading_public_order_alipay">正在跳转至支付宝填写页面</string>
+    <string name="loading_public_order_weixin">正在跳转至微信支付</string>
+    <string name="loading_public_order_cancel">正在取消订单</string>
+    <string name="loading_public_default_desc">努力加载中</string>
+
+    <string name="loading_flight_pay_order">正在扣款中</string>
+	<string name="loading_hotel_cash_hint_fan">
+		1.使用现金券预订酒店，入住后点评此酒店您将获得与使用的现金券等额的点评奖金（保存到您的奖金账户）。\n2.如果您的现金券账户里有足够的现金券，同程旅游自动帮您使用本次订单的最高额度
+	</string>
+    <string name="loading_hotel_cash_hint_jian">1.使用现金券预订酒店享受等额立减优惠。\n2.如果您的现金券账户里有足够的现金券，同程旅游自动帮您使用本次订单的最高额度</string>
+
+    <string name="loading_flight_UpompPay_hint">正在跳转至银联支付页面</string>
+
+    <!-- 我的同程 -->
+    <string name="loading_my_message">正在努力加载消息</string>
+    <string name="loading_my_hotel_order">正在查询您的酒店订单</string>
+    <string name="loading_hotel_group_order">正在查询您的酒店团购订单</string>
+    <string name="loading_my_hotel_position">正在加载酒店位置</string>
+    <string name="loading_my_order">正在查询您的待点评订单</string>
+    <string name="loading_my_going_order">正在查询您的酒店订单</string>
+    <string name="loading_my_acount_phone">验证码发送中</string>
+    <string name="loading_my_jiangjin">正在查询您的奖金账户</string>
+    <string name="loading_my_xianjingquan">正在查询你的现金券账户</string>
+    <string name="loading_my_hotel_order_old">正在加载已结束的酒店订单</string>
+    <string name="loading_my_order_detail">正在加载订单详情</string>
+    <string name="loading_my_save">正在保存您的信息</string>
+    <string name="loading_my_xjq_info">正在查询您的现金券使用记录</string>
+    <string name="loading_my_xjq_old">正在查询您的过期现金券信息</string>
+    <string name="loading_my_xjq_new">正在查询您的可用现金券信息</string>
+    <string name="loading_my_xjq_jihuo">正在激活中，请稍候</string>
+    <string name="loading_my_jj_out">正在加载您的奖金支出记录</string>
+    <string name="loading_my_jj_in">正在加载您的奖金收入记录</string>
+    <string name="loading_my_collect">正在查看您的收藏信息</string>
+    <string name="loading_my_passenger">正在查看您的常用乘机人信息</string>
+    <string name="loading_my_address">正在查看您的常用地址信息</string>
+    <string name="loading_my_collect_hotel">正在查看您收藏的酒店信息</string>
+    <string name="loading_my_unlogin">您还没有登录，赶紧登录或注册哦</string>
+    <string name="get_cash_submit">立即提现</string>
+    <string name="yuan">¥%s</string>
+
+    <!-- 周边游 -->
+    <string name="travel_loading_filter_info">正在加载筛选数据</string>
+
+    <!-- 无网络提醒 -->
+    <string name="load_nowifi">无法连接到网络，请检查网络配置，或者拨打同程旅游电话4007-991-555</string>
+    <string name="vacation_none_related_comment">暂时没有相关点评，不妨去体验下~</string>
+
+    <!-- 滑动价格日历 -->
+    <string name="day_name_format">EEE</string>
+    <string name="invalid_date">Date must be between %1$s and %2$s.</string>
+    <string name="month_name_format">yyyy年 MM月</string>
+
+    <string name="ensure">确定</string>
+
+    <!-- 汽车票 -->
+    <string name="coach_loading_ticket_list">正在加载汽车票信息</string>
+    <string name="coach_searching_stations">正在加载汽车站</string>
+    <string name="coach_searching_ticket_offices">正在加载售票点</string>
+
+    <!-- 微信 -->
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+    <string name="hotel_order_arrivetime">正在查询可修改时间</string>
+    <string name="hotel_order_arrivetime_submit">正在提交申请</string>
+
+    <!-- traffic -->
+    <string name="traffic_tab_bus">汽车票</string>
+    <string name="init_html5_model_failed">初始化H5页面出错</string>
+    <string name="traffic_update_desc_file_not_exist">未发现用车频道更新描述文件</string>
+    <string name="verify_web_resource_file_failed">离线资源包文件校验错误</string>
+    <string name="notice_alipay_not_installed">支付请先安装支付宝客户端</string>
+    <string name="map">地图</string>
+    <string name="select_store">选这家</string>
+
+    <!-- 无网络无结果文案 -->
+    <string name="common_contacts_noresult_msg">添加一下，买票出游更便捷哦</string>
+    <string name="common_address_noresult_msg">添加一下，买票出游更便捷哦</string>
+    <string name="common_no_message_noresult_msg">还没有消息，再等等咯</string>
+    <string name="common_no_image_noresult_msg">还没有分享过美景，快去试试吧</string>
+    <string name="common_no_cash_noresult_msg">还没有存款，努力存钱吧</string>
+    <string name="common_network_connect_failed_msg">网络连接失败，请检查一下网络设置</string>
+    <string name="common_no_network_msg">网络不给力，再试试</string>
+    <string name="common_server_error_msg">服务器偷懒了，先去其他页面逛逛吧</string>
+    <string name="common_ordercomb_noresult_msg">您的订单空空如也</string>
+    <string name="common_no_collection">木有收藏，赶快把你喜爱的加进来</string>
+    <string name="common_no_collection_button_msg">去看看</string>
+    <string name="common_noresult_title">抱歉，暂无结果</string>
+    <string name="common_nowifi_disconnect_title">网络未开启</string>
+    <string name="common_nowifi_disconnect_tips">请检查网络设置</string>
+    <string name="common_nowifi_networkerror_title">加载失败</string>
+    <string name="common_nowifi_networkerror_tips">再试一下</string>
+    <string name="common_nowifi_button_retry">重新加载</string>
+
+    <!-- 搜索、筛选无结果 -->
+    <string name="common_search_noresult">木有结果，再找找看</string>
+    <string name="common_filter_noresult">木有结果，换个条件再试试</string>
+
+    <string name="string_symbol_minus_ch">－</string>
+    <string name="string_symbol_dollar_ch">¥</string>
+
+    <string name="use_red_package">使用红包</string>
+    <string name="red_package_hit">请选择</string>
+    <string name="red_package_name">红包</string>
+
+
+    <string name="net_change_to_2g">当前切换到了2G网络环境</string>
+    <string name="net_change_to_3g">当前切换到了3G网络环境</string>
+    <string name="net_change_to_4g">当前切换到了4G网络环境</string>
+    <string name="net_change_to_wifi">当前切换到了wifi网络环境</string>
+
+    <string name="active_weekend_card_for_you">正在激活周末卡</string>
+
+    <!-- 支付成功页 -->
+    <string name="pay_success_actonbar_title">支付成功</string>
+    <string name="pay_success_header_title">恭喜您，订单支付成功！</string>
+    <string name="pay_success_header_content">旅程即将开启，祝您快乐每一程。</string>
+    <string name="pay_success_left_btn">查看订单</string>
+    <string name="pay_success_right_btn">查看行程</string>
+    <!-- 支付失败页 -->
+    <string name="pay_failure">对不起，支付失败！请您重新支付。</string>
+    <string name="pay_failure_tips">若有疑问，请及时联系同程客服</string>
+    <string name="pay_failure_tips_high_light">同程客服</string>
+    <!-- 提交失败 -->
+    <string name="submit_failure">对不起，订单提交失败！请您重新预订。</string>
+	<string name="submit_order_warm_tips">请您耐心等待同程旅游给您的确认短信，若未收到，请及时致电4007-991-555转6
+        如在17：00至次日9：00期间，我们无法为您立即核实位置信息，将在次日早上9：00后处理并回电给您，请您耐心等待</string>
+
+    <!-- 酒店常旅 -->
+    <string name="hotel_common_contacts_title_describe">还需要选择%1$d位入住人</string>
+
+    <!-- 人民币符号 -->
+    <string name="label_rmb">¥</string>
+
+
+	<string name="loading_activity">com.tongcheng.android.LoadingActivity</string>
+
+	<string name="confirm">确定</string>
+</resources>

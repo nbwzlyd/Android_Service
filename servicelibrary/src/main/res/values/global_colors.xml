@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--基础颜色-->
+    <color name="main_primary" >#ff333333</color><!-- 深黑，用于标题，正文 -->
+    <color name="main_secondary" >#ff666666</color><!-- 用于tab文字，二级文字 -->
+    <color name="main_hint" >#ff999999</color><!-- 用于说明文字，提示文案 -->
+    <color name="main_disable" >#ffcccccc</color><!-- 用于输入框默认提示 -->
+    <color name="main_green">#ff23beae</color>
+    <color name="main_red">#ffff5028</color>
+    <color name="main_orange" >#ffff5346</color><!-- 用于价格，按钮色 -->
+    <color name="main_white" >#ffffffff</color><!-- 用于反白 -->
+    <color name="main_black" >#ff000000</color><!-- 用于反白 -->
+    <color name="main_line" >#ffe4e4e4</color><!-- 用于分割线、按钮描边 -->
+    <color name="main_link" >#ff00a0ff</color><!-- 用于链接色 -->
+    <color name="main_click" >#ffeeeeee</color><!-- 用于点击色 -->
+    <color name="main_null" >#ffc0c5d0</color><!--Null -->
+    <color name="main_prompt" >#ff9ec7f9</color><!--特殊提示色 -->
+
+
+    <!--814新增公共颜色-->
+    <color name="main_selectgreen" >#ffeafffd</color>
+    <color name="main_deeporange" >#ffd9453b</color>
+    <color name="main_lightorange" >#ffff8400</color>
+    <color name="main_secondbg" >#fff2f5fa</color><!--用于卡片二级色，次于大背景的灰-->
+    <color name="main_tip_bg">#e6353432</color><!--蒙层 -->
+    <color name="main_disable_orange">#ffffb6bf</color>
+
+    <!--警告提示颜色-->
+    <color name="tipswarningbg">#ffffe8a1</color><!-- 公告背景色 -->
+    <color name="tipswarning">#ff9a7126</color><!-- 公告条文案 -->
+
+    <color name="bg_main" >#ffedf0f5</color><!-- 用于大背景色 -->
+</resources>

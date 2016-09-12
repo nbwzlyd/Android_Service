@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/tv_success_pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" 
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="right|bottom"
+        android:text="￥456"
+        android:includeFontPadding="false"
+        android:background="@drawable/bg_success_box"/>
+
+    <ImageView
+        android:id="@+id/iv_success_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_success_pop"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/animation_red_success" />
+
+    <TextView
+        android:id="@+id/tv_success_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/column_height"
+        android:layout_below="@+id/iv_success_animation"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/common_red_selector"
+        android:text="拆红包啦" 
+        android:gravity="center"
+        android:layout_marginTop="28dp"
+        android:textSize="@dimen/s_tsize_middle"
+        android:textColor="@color/main_orange"/>
+
+</RelativeLayout>

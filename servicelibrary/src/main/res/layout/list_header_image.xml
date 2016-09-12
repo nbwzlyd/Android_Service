@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- list_header_image.xml -->
+<!-- 我定义 LinearLayout中的android:layout_height="xxx"可以调整分隔符的大小-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="32dp"
+	android:gravity="center">
+	<TextView
+		android:id="@+id/list_header_title"
+		android:layout_width="fill_parent"
+		android:layout_height="32dp"
+		android:paddingLeft="16dp"
+		android:gravity="center_vertical"
+		style="@style/tv_info_secondary_style"/>
+</LinearLayout>

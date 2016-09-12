@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="gridview" type="id"/>
+    <item name="webview" type="id"/>
+
+    <!-- Zxing Messages IDs -->
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="decode_failed_xiangce" type="id"/>
+    <item name="imageview_scaletype" type="id"/>
+
+    <!-- city select -->
+    <item name="id_position" type="id"/>
+
+    <!-- ExpandableTextView -->
+    <item type="id" name="expandable_text"/>
+    <item type="id" name="expand_collapse"/>
+    <item type="id" name="lv_expand_collapse"/>
+    
+    <!-- hotel -->
+    <item type="id" name="scroll_threshold_key"/>
+
+    <!--comment-->
+    <item name="id_label" type="id"/>
+
+    <item name="swipe_content" type="id"/>
+    <item name="swipe_menu" type="id"/>
+</resources>

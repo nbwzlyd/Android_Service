@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/common_margin"
+    >
+
+      <TextView
+        android:id="@+id/tv_picker_name"
+        style="@style/tv_info_hint_style"
+        android:minHeight="45dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+          />
+
+    <ListView
+        android:id="@+id/lv_picker_items"
+        android:layout_width="fill_parent"
+        android:layout_height="205dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tc_actionbar_height">52dp</dimen><!-- actionbar的高度 -->
+
+    <dimen name="text_size_xlarge">24sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="text_size_list">16sp</dimen>
+    <dimen name="text_size_info">14sp</dimen>
+    <dimen name="text_size_hint">12sp</dimen>
+    <dimen name="text_size_xsmall">10sp</dimen>
+    <dimen name="text_size_small">9sp</dimen>
+
+    <!-- cell公共列表页统一 -->
+    <dimen name="text_size_large_common">20sp</dimen>
+    <dimen name="text_size_list_common">16sp</dimen>
+    <dimen name="text_size_info_common">14sp</dimen>
+    <dimen name="text_size_hint_common">12sp</dimen>
+    <dimen name="text_size_small_common">10sp</dimen>
+    <dimen name="text_size_xsmall_common">9sp</dimen>
+</resources>

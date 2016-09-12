@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_white">
+
+    <ImageView
+        android:id="@+id/iv_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_travel_gradient"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_card_pic_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/main_white"
+        android:textSize="@dimen/text_size_list" />
+
+    <TextView
+        android:id="@+id/tv_card_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toLeftOf="@id/tv_card_pic_count"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/main_white"
+        android:textSize="@dimen/text_size_list" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_card_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_above="@id/tv_card_name"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_card_weather"
+            android:layout_width="30dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tv_card_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical|left"
+            android:minWidth="64dp"
+            android:paddingLeft="3dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/s_tsize_small" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_cell_two_line"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <ImageView
+        android:id="@+id/img_jiantou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow_list_common_right" />
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/img_jiantou"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/tv_info_hint_style"
+            android:layout_marginTop="@dimen/common_order_margin_top"
+            android:text="订单跟踪：" />
+
+        <ImageView
+            android:id="@+id/scenery_order_track_item_line"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="12.0dip"
+            android:layout_marginTop="14.0dip"
+            android:background="@drawable/icon_indicator_order_rest2" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16.0dip"
+            android:layout_marginTop="12.0dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_order_track_status"
+                style="@style/tv_list_primary_style"
+                android:ellipsize="end"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/tv_order_track_time"
+                style="@style/tv_hint_hint_style"
+                android:layout_marginTop="6.0dip"
+                android:ellipsize="end"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

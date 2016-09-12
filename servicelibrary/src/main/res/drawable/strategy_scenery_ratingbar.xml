@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+android:id/background"
+        android:drawable="@drawable/icon_raidersstar_gray"/>
+    <item
+        android:id="@+android:id/secondaryProgress"
+        android:drawable="@drawable/icon_raidersstar_gray"
+        android:left="2dp"/>
+    <item
+        android:id="@+android:id/progress"
+        android:drawable="@drawable/icon_raidersstar_orange"
+        android:left="2dp"/>
+
+</layer-list>

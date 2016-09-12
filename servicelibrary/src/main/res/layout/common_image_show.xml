@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.tongcheng.lib.serv.ui.view.HackyViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/black" >
+
+        <!-- <android.support.v4.view.PagerTabStrip -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="top" -->
+        <!-- ></android.support.v4.view.PagerTabStrip> -->
+    </com.tongcheng.lib.serv.ui.view.HackyViewPager>
+
+    
+
+    <TextView
+        android:id="@+id/image_indexer"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/tc_actionbar_height"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_home_search_mask"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/c_tsize_small" />
+<ImageView
+        android:id="@+id/actionbar_back"
+        android:layout_width="@dimen/tc_actionbar_height"
+        android:layout_height="@dimen/tc_actionbar_height"
+        android:layout_gravity="center_vertical"
+        android:scaleType="center"
+        android:src="@drawable/icon_navi_backwhite_rest" />
+    <ImageView
+        android:id="@+id/image_save"
+        android:layout_width="@dimen/tc_actionbar_height"
+        android:layout_height="@dimen/tc_actionbar_height"
+        android:layout_alignParentRight="true"
+        android:scaleType="center"
+        android:src="@drawable/icon_navi_preservation_rest"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="#80000000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/c_tsize_small" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/c_tsize_small" />
+    </RelativeLayout>
+
+</RelativeLayout>

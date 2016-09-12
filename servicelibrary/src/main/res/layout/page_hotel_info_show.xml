@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@drawable/bg_list_window_rest" >
+
+    <ImageButton
+        android:id="@+id/imgbtn_guanbi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:paddingTop="2dp"
+        android:paddingRight="3dp"
+        android:visibility="visible"
+        android:src="@drawable/btn_home_chagray" />
+
+    <RelativeLayout
+        android:id="@+id/rl_dialog_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tv_dialog_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="20dp"
+            android:text="确认退出?"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbarFadeDuration="1000"
+            android:singleLine="false"
+            android:maxLines="20"
+            android:textColor="@color/c_tcolor_dark"
+            android:textSize="15sp" />
+        
+        <LinearLayout 
+            android:id="@+id/progress_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_dialog_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dip"
+            android:visibility="gone"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下载"
+                />
+            <ProgressBar 
+	            android:id="@+id/progressbar"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            style="?android:attr/progressBarStyleHorizontal"
+	           	android:max="100"
+	           	android:layout_gravity="center_vertical"
+	           	android:layout_marginLeft="10dip"
+	           	android:layout_marginRight="10dip"
+            	/>
+            <TextView 
+                android:id="@+id/progress_percent"
+                android:layout_width="45dip"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="0%"
+                />
+        </LinearLayout>
+        
+        
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/rl_dialog_content"
+        android:background="@color/frame_gray" />
+
+    <LinearLayout
+        android:id="@+id/ll_dialog_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_line"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_dialog_left"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Button"
+            android:background="@drawable/selector_btn_dialog"
+            android:textColor="@color/c_tcolor_dark_grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_button_line"
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/frame_gray" />
+
+        <Button
+            android:id="@+id/btn_dialog_middle"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Button"
+            android:background="@drawable/selector_btn_dialog"
+            android:visibility="gone"
+            android:textColor="@color/c_tcolor_dark"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_button_line_two"
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            android:background="@color/frame_gray"/>
+
+        <Button
+            android:id="@+id/btn_dialog_right"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Button"
+            android:background="@drawable/selector_btn_dialog"
+            android:textColor="@color/c_tcolor_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- 用户信息相关 -->
+    <string name="debug_account_name">hello</string>
+    <string name="debug_account_password">******</string>
+    <string name="debug_phone_number">1383838338</string>
+    <string name="debug_gender">男</string>
+    <string name="debug_id_number">320231887063746876</string>
+    
+    <!-- 城市地点相关 -->
+    <string name="debug_city">北京</string>
+    <string name="debug_from_city_to_city">上海-北京</string>
+    
+    <!-- 常用日期 -->
+    <string name="debug_date">2015&#8211;01&#8211;01</string>
+    <string name="debug_datetime">2015&#8211;01&#8211;01 11:20</string>
+    <string name="debug_time">08:45</string>
+    <string name="debug_time_left">2小时25分</string>
+    <string name="debug_yesterday">昨天</string>
+    <string name="debug_today">今天</string>
+    <string name="debug_tomorrow">明天</string>
+    <string name="debug_week">星期四</string>
+    <string name="debug_short_week">周四</string>
+    
+    <!-- 价钱相关 -->
+    <string name="debug_money">¥100.8</string>
+    
+    <!-- 数字相关 -->
+    <string name="debug_total_num">共5条</string>
+    
+    <string name="debug_seat_type">一等座</string>
+    
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 列表页Cell UED统一方案 新增style -->
+    <style name="tv_small_white_style_common" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_small_common</item>
+        <item name="android:textColor">@color/main_white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_list_primary_style_common" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_list_common</item>
+        <item name="android:textColor">@color/main_primary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_info_primary_style_common" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_info_common</item>
+        <item name="android:textColor">@color/main_primary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_hint_orange_style_common" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_hint_common</item>
+        <item name="android:textColor">@color/main_orange</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_hint_primary_style_common" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_hint_common</item>
+        <item name="android:textColor">@color/main_primary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_hint_secondary_style_common" parent="@android:style/Widget.TextView">
+    <item name="android:textSize">@dimen/text_size_hint_common</item>
+    <item name="android:textColor">@color/main_secondary</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_price_red_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_hint_common</item>
+        <item name="android:textColor">@color/main_orange</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_large_orange_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_large_common</item>
+        <item name="android:textColor">@color/main_orange</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_satisfied_hint_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_hint_common</item>
+        <item name="android:textColor">@color/satisfied_highlight</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_list_red_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_list_common</item>
+        <item name="android:textColor">@color/main_orange</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_hint_tips_warning_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_hint_common</item>
+        <item name="android:textColor">@color/tipswarning</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_cell_list_hint_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_list_common</item>
+        <item name="android:textColor">@color/cell_hint</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_cell_hint_hint_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_hint_common</item>
+        <item name="android:textColor">@color/cell_hint</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- ////////////////////////////////// -->
+</resources>

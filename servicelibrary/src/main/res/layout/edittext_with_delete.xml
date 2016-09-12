@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_edit_withdelete" >
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:drawablePadding="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/ib_delete"
+        android:textColor="@color/main_primary"
+        android:textColorHint="@color/main_disable"
+        android:textSize="@dimen/text_size_info"
+        android:imeOptions="actionSearch" />
+
+    <ImageButton
+        android:id="@id/ib_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/iconbtn_search_delete_common"
+        android:gravity="center"
+        android:background="@null"
+        android:visibility="gone" />
+
+</RelativeLayout>

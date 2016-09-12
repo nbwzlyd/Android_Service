@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/pb_img_loading"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="4dip"
+        android:layout_alignParentTop="true"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/process_img_loading"
+        android:secondaryProgress="0"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <com.tongcheng.lib.serv.ui.view.LoadErrLayout
+        android:id="@+id/load_error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/common_small_errlayout_top_margin"
+        android:paddingBottom="50dip"
+        android:focusable="false"
+        android:background="@color/bg_main"
+        android:focusableInTouchMode="false"
+        android:visibility="gone" />
+
+</merge>

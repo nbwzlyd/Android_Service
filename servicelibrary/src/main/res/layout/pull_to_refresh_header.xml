@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="61dp"
+    android:paddingBottom="15dip"
+    android:paddingTop="10dp" >
+
+    <LinearLayout
+        android:id="@+id/ll_refresh_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical" >
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp">
+
+            <com.tongcheng.lib.serv.ui.view.pull.CustomProgressBar
+                android:id="@+id/custom_pb"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                tc:ringColor="@color/main_green"
+                tc:ringWidth="1.5dip"
+                tc:ringradius="8.5dip" >
+            </com.tongcheng.lib.serv.ui.view.pull.CustomProgressBar>
+
+            <ProgressBar
+                android:id="@+id/animation_iv"
+                style="@style/ProgressBar.Loading"
+                android:layout_width="28dp"
+                android:layout_height="28dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/pull_to_refresh_text"
+            style="@style/tv_hint_hint_style"
+            android:layout_width="80dp"
+            android:text="@string/pull_to_refresh_pull_down_label" />
+
+        
+    </LinearLayout>
+
+</RelativeLayout>

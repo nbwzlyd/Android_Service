@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/tv_fail_pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold" 
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_fail_box"/>
+
+    <ImageView
+        android:id="@+id/iv_fail_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_fail_pop"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/animation_red_fail" />
+
+    <TextView
+        android:id="@+id/tv_fail_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/column_height"
+        android:layout_below="@+id/iv_fail_animation"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/common_red_selector"
+        android:gravity="center"
+        android:text="返回" 
+        android:layout_marginTop="28dp"
+        android:textSize="@dimen/s_tsize_middle"
+        android:textColor="@color/main_orange"/>
+
+</RelativeLayout>

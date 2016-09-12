@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/order_submit_bottom_height"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/main_line"></View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:background="@color/main_white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_left_click"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_order_desc"
+                    style="@style/tv_list_primary_style"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:text="订单金额：" />
+
+                <TextView
+                    android:id="@+id/tv_flag"
+                    style="@style/tv_info_orange_style"
+                    android:layout_alignBaseline="@+id/tv_money"
+                    android:layout_toRightOf="@id/tv_order_desc"
+                    android:text="@string/label_rmb" />
+
+                <TextView
+                    android:id="@+id/tv_money"
+                    style="@style/tv_title_orange_style"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/tv_flag"
+                    android:background="@color/main_white"
+                    android:ellipsize="end"
+                    android:gravity="left|center_vertical"
+                    android:singleLine="true"
+                    android:text="120" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/tv_money"
+                    android:src="@drawable/arrow_filter_up_rest" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_right_order"
+            style="@style/tv_title_white_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="11"
+            android:background="@drawable/selector_order_submit_orange"
+            android:gravity="center"
+            android:text="提交订单" />
+
+    </LinearLayout>
+
+</LinearLayout>

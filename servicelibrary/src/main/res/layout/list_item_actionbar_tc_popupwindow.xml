@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@drawable/selector_actionbar_tc_popupwindow"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp">
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/img_xin"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_alignRight="@id/img_icon"
+            android:layout_alignTop="@id/img_icon"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-3dp"
+            android:src="@drawable/icon_red_dot"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/img_num"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:gravity="center"
+            android:layout_alignRight="@id/img_icon"
+            android:layout_alignTop="@id/img_icon"
+            android:background="@drawable/bg_red_circle"
+            android:textColor="@color/main_white"
+            android:layout_marginRight="-7dip"
+            android:layout_marginTop="-4dip"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="11dp"
+            android:layout_toRightOf="@id/img_icon"
+            android:singleLine="true"
+            android:textColor="@color/main_disable"
+            android:textSize="@dimen/text_size_info" />
+
+    </RelativeLayout>
+
+</LinearLayout>

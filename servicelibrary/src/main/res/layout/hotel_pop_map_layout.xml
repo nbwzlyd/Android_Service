@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="25dp" >
+
+    <LinearLayout
+        android:id="@+id/ll_popclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_hotelmap_pop"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_pop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:maxWidth="250dp"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="苏州乐园四季温泉 "
+            android:textColor="@color/c_tcolor_dark"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/bg_hotel_line" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="导航"
+            android:textColor="@color/main_green"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

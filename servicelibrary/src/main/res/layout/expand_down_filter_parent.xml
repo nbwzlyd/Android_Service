@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/rl_filter_title"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:minHeight="40dp"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp" 
+     android:background="@drawable/filter_parent_selector"
+     >
+
+        <TextView
+            android:id="@+id/tv_filter_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="18sp" 
+            />
+
+        <TextView
+            android:id="@+id/tv_filter_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="18sp" 
+            android:singleLine="true"
+            android:layout_toRightOf="@id/tv_filter_title"
+            android:layout_toLeftOf="@+id/iv_arrow"
+            />
+        
+         <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/btn_xiashaixuan"
+            />
+    </RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.tongcheng.android.common.city.basecity.view.CurrentView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_main"
+    android:paddingBottom="12dp">
+
+    <TextView
+        android:id="@+id/tv_current_city"
+        style="@style/tv_info_primary_style"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="6dp"
+        android:singleLine="true"
+        android:background="@drawable/btn_city_rest"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="12dp" />
+
+</com.tongcheng.android.common.city.basecity.view.CurrentView>

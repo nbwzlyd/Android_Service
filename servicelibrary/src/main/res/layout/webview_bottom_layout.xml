@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="43dp"
+    android:background="@drawable/web_black_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:paddingBottom="2.0dip"
+        android:paddingTop="2.0dip"
+        android:src="@drawable/web_btn_left_normal" />
+
+    <ImageButton
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:paddingBottom="2.0dip"
+        android:paddingTop="2.0dip"
+        android:src="@drawable/web_btn_right_normal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:minWidth="100dp"
+        android:paddingBottom="2.0dip"
+        android:paddingTop="2.0dip" >
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            style="?android:attr/progressBarStyleSmallTitle"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:paddingBottom="2.0dip"
+        android:paddingTop="2.0dip"
+        android:src="@drawable/web_btn_refresh_normal" />
+
+    <ImageButton
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:paddingBottom="2.0dip"
+        android:paddingTop="2.0dip"
+        android:src="@drawable/web_btn_stop_normal"
+        android:visibility="gone" />
+
+</LinearLayout>

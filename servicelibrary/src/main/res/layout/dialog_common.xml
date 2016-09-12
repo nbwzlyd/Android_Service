@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dip"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_list_window_rest"
+    android:divider="@drawable/shape_line_horizontal"
+    android:showDividers="middle"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_common_content"
+        style="@style/tv_info_primary_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="20"
+        android:paddingBottom="20dp"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/shape_line_vertical"
+        android:showDividers="middle"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_common_button_left"
+            style="@style/tv_list_primary_style"
+            android:layout_width="0dip"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textColor="@color/c_tcolor_dark_grey"
+            android:background="@drawable/selector_btn_dialog"
+            android:gravity="center"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/dialog_common_button_right"
+            style="@style/tv_list_primary_style"
+            android:layout_width="0dip"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_dialog"
+            android:gravity="center"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout>

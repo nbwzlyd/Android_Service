@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#ff000000"
+        >
+    <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+    </android.support.v4.view.ViewPager>
+    <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:minHeight="48dp"
+            android:background="@drawable/bg_pic_hyaline"
+            >
+        <ImageView
+                android:id="@+id/actionbar_back"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="center"
+                android:src="@drawable/arrow_pic_left"/>
+        <TextView
+                android:id="@+id/image_indexer"
+                android:layout_height="48dp"
+                android:layout_toRightOf="@id/actionbar_back"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                style="@style/tv_list_white_style"
+                />
+        <TextView
+                android:id="@+id/image_remove"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                style="@style/tv_list_white_style"
+                android:text="删除"
+                android:visibility="gone"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

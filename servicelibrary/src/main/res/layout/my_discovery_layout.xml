@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    android:orientation="vertical" >
+
+    <!-- ACTION_BAR -->
+
+    <include
+        android:id="@+id/ll_navbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/actionbar_with_discovery" />
+
+    <ListView
+        android:id="@+id/lv_hot"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:layout_below="@+id/ll_navbar" >
+    </ListView>
+
+    <com.tongcheng.lib.serv.ui.view.LoadErrLayout
+        android:id="@+id/rl_err"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/ll_navbar"
+        android:layout_marginTop="@dimen/common_errlayout_top_margin"
+        android:gravity="center_horizontal" >
+    </com.tongcheng.lib.serv.ui.view.LoadErrLayout>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_query_container"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/bg_list_searchbox"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp">
+
+        <EditText
+            android:id="@+id/et_query"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/icon_indicator_search_rest"
+            android:drawablePadding="9dp"
+            android:inputType="text"
+            android:paddingLeft="12dp"
+            android:paddingRight="9dp"
+            android:textColor="@color/c_tcolor_dark"
+            android:textColorHint="@color/main_disable"
+            android:textSize="@dimen/text_size_info" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/ll_query_container"
+        android:divider="@null"
+        android:fastScrollEnabled="false"
+        android:listSelector="@null"
+        android:scrollbars="none" />
+
+    <com.tongcheng.android.common.city.basecity.IndexBar
+        android:id="@+id/index_bar"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/listview"
+        android:paddingBottom="4dp"
+        android:paddingTop="6dp" />
+
+    <TextView
+        android:id="@+id/tv_letter"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/corners_city_tag_bg"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:maxLength="2"
+        android:singleLine="true"
+        android:textColor="@color/main_white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/ProgressBar.Loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+</RelativeLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--和Android系统颜色定义规范保持一致，16进制字母全部小写-->
+
+    <!-- 黑色-透明度 -->
+    <color name="main_black_10">#1a000000</color>
+    <color name="main_black_20">#33000000</color>
+    <color name="main_black_30">#4d000000</color>
+    <color name="main_black_40">#66000000</color>
+    <color name="main_black_50">#80000000</color>
+    <color name="main_black_60">#99000000</color>
+    <color name="main_black_70">#b3000000</color>
+    <color name="main_black_80">#cc000000</color>
+    <color name="main_black_90">#e6000000</color>
+
+    <!--白色-透明度-->
+    <color name="main_white_10">#1affffff</color>
+    <color name="main_white_15">#26ffffff</color>
+    <color name="main_white_20">#33ffffff</color>
+    <color name="main_white_30">#4dffffff</color>
+    <color name="main_white_40">#66ffffff</color>
+    <color name="main_white_50">#80ffffff</color>
+    <color name="main_white_60">#99ffffff</color>
+    <color name="main_white_70">#b3ffffff</color>
+    <color name="main_white_80">#ccffffff</color>
+    <color name="main_white_90">#e6ffffff</color>
+
+    <!--绿色-透明度-->
+    <color name="main_green_10">#1a23beae</color>
+    <color name="main_green_20">#3323beae</color>
+    <color name="main_green_30">#4d23beae</color>
+    <color name="main_green_40">#6623beae</color>
+    <color name="main_green_50">#8023beae</color>
+    <color name="main_green_60">#9923beae</color>
+    <color name="main_green_70">#b323beae</color>
+    <color name="main_green_80">#cc23beae</color>
+    <color name="main_green_90">#e623beae</color>
+
+    <!--橙色-透明度-->
+    <color name="main_orange_10">#1aff5346</color>
+    <color name="main_orange_20">#33ff5346</color>
+    <color name="main_orange_30">#4dff5346</color>
+    <color name="main_orange_40">#66ff5346</color>
+    <color name="main_orange_50">#80ff5346</color>
+    <color name="main_orange_60">#99ff5346</color>
+    <color name="main_orange_70">#b3ff5346</color>
+    <color name="main_orange_80">#ccff5346</color>
+    <color name="main_orange_90">#e6ff5346</color>
+
+    <!--红色-透明度-->
+    <color name="main_red_10">#1aff5028</color>
+    <color name="main_red_20">#33ff5028</color>
+    <color name="main_red_30">#4dff5028</color>
+    <color name="main_red_40">#66ff5028</color>
+    <color name="main_red_50">#80ff5028</color>
+    <color name="main_red_60">#99ff5028</color>
+    <color name="main_red_70">#b3ff5028</color>
+    <color name="main_red_80">#ccff5028</color>
+    <color name="main_red_90">#e6ff5028</color>
+
+    <!--######################################################################################-->
+
+    <color name="black_three">#07000000</color> <!-- 3%透明黑色 -->
+
+    <!--白色-->
+    <color name="white">#ffffffff</color>
+
+    <!-- 橙色 -->
+    <color name="orange_warning">#ffff8400</color>
+    <color name="satisfied_highlight">#ff8400</color>
+
+    <!--Primary-->
+    <color name="c_tcolor_dark">#ff333333</color>
+    <color name="navibar_title_text">#ff333333</color><!-- 导航栏title字体颜色 -->
+
+    <!--Secondary-->
+    <color name="textColorforItemTitle">#FF666666</color>
+    <color name="c_tcolor_grey2">#ff666666</color>
+
+    <!--Hint-->
+    <color name="c_tcolor_light">#ff999999</color>
+    <color name="lightgray2">#ff999999</color>
+    <color name="cell_title_gray">#ff999999</color>
+
+    <!--Disable-->
+    <color name="c_tcolor_light_grey">#ffcccccc</color>
+
+    <!--######################################################################################-->
+
+    <color name="main_unclick" >#ffFFC3A1</color><!-- 用于橘色按钮不可点击 -->
+
+    <color name="c_tcolor_dark_grey">#ff7f7f7f</color>
+
+    <color name="c_tcolor_grey">#ff555555</color>
+
+    <color name="c_tcolor_actionbar">#ff444444</color>
+
+
+    <color name="notes_detail_bg">#F6F8FB</color>
+    <color name="lightblue">#ff72a9e0</color>
+
+    <color name="item_content_color">#ffE6EAED</color>
+
+    <color name="c_seckill_before">#ff9a9a9a</color><!-- 秒杀抢购前的颜色 -->
+    <!-- 规范 -->
+    <color name="gray">#ff434e5a</color> <!-- 深灰色（正文等） -->
+    <color name="linegray">#ff9ea5ac</color> <!-- 浅灰色（提示语、说明文字等） -->
+    <color name="line_bg_gray">#ffe7eef5</color> <!-- 下拉框背景色 -->
+
+
+
+    <color name="frame_gray">#ffcecece</color>
+    <color name="line_divider_gray">#ffD9D9D9</color><!-- 灰色分割线 -->
+    <color name="bg_frame_green">#e9fff0</color>
+
+    <!-- Zxing -->
+
+
+    <color name="calendar_text_inactive">#40778088</color>
+    <color name="calendar_cell_novalidate">#ffc8d2dc</color>
+
+
+
+    <color name="blue_half1">#b2005ECC</color>
+    <color name="filter_bg_child">#ff2c2b2b</color>
+    <color name="filter_bg_parent">#ff393939</color>
+    <color name="holo_black">#dd222222</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+
+    <color name="bg_bg">#fff0f0f0</color> <!-- 大背景色 -->
+    <color name="lable_red">#ffff4800</color> <!-- 标签纯色块，红色 -->
+
+	<!-- train start -->
+    <color name="train_list_sort_txt_normal">#bbbbbb</color>
+	<!-- train end -->
+
+    <!-- flight list top -->
+    <color name="flight_list_start_date_color" >#ffabaeb3</color>
+    <!-- hotel -->
+
+     <color name="bg_hotel_star" >#f5f5f5</color>
+
+ <!-- 用于选中，成功提示 -->
+
+     <color name="main_tips_bg_grey" >#ffabaeb3</color><!-- 用于灰色背景 -->
+
+     <color name="main_hint_seachbox" >#ffbbbbbb</color><!-- 搜索框用字体色-->
+
+     <color name="main_tips_warning">#ff9e8052</color><!-- 提醒文字颜色 -->
+     <color name="main_noresult_title">#ffed8336</color><!-- 无结果推荐主标题颜色 -->
+     <color name="main_noresult_subtitle">#ffe7aa6f</color><!-- 无结果推荐副标题颜色 -->
+     <color name="label_red" >#ffff735c</color><!-- 淡红色标签 -->
+
+     <!-- 7.0 标签色值 -->
+     <color name="label_tuan_hot" >#ffff6d4f</color><!-- 团购、热度 -->
+     <color name="label_favorable" >#ffff9f20</color><!-- 优惠相关 -->
+
+     <!-- 7.0 bg色值 -->
+     <color name="bg_action_bar" >#fff5f5f5</color><!-- 用于导航栏 -->
+     <color name="bg_expander" >#fff6f8fb</color><!-- 用户cell展开后的背景色 -->
+
+	<color name="home_search_hint">#ffaaaaaa</color><!-- 大首页搜索框hint -->
+
+	<color name="bg_filter_tab">#ff2e343b</color><!-- 列表筛选tab背景色 7.3新增-->
+
+    <color name="bg_messagebox_setting_notice">#fffff7dc</color><!-- 系统消息分类设置提醒栏背景色 7.3新增-->
+
+
+    <!-- 我身边列表条数提示背景 -->
+    <color name="nearby_filter_bg">#e9ecf0</color>
+
+    <color name="vertical_line">#dcdcdc</color>
+
+    <!-- 列表页Cell UED统一方案 TypeB_1图片下方标签背景颜色 -->
+
+    <color name="bg_cell_image_tag_bottom_color">#d8596d85</color>
+
+    <color name="cell_hint">#777777</color>
+
+    <color name="bg_cell_recommend_tag">#ffac35</color>
+
+    <!-- 筛选组件 -->
+    <color name="filter_clear_bg">#ff274d4b</color>
+    <color name="filter_clear_bg_alpha">#65274d4b</color>
+    <color name="common_filter_clear_fg">#ffb8cbca</color>
+
+    <color name="image_bottom_tag_color_gold">#978a72</color>
+
+    <!--列表交互-->
+    <color name="common_list_filter_background">#f30b3c39</color> <!-- 筛选背景 -->
+    <color name="common_list_filter_background_original">#0b3c39</color>
+
+    <color name="red_dot_color">#fd593f</color>
+
+    <color name="bgColor">#FFF2F2F2</color>
+
+    <!--########################################禁止继续添加色值定义##############################################-->
+</resources>

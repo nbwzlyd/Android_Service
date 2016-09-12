@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/dialog_full_screen_close_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/dialog_full_screen_close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/common_margin"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/btn_close_common_box"/>
+</LinearLayout>

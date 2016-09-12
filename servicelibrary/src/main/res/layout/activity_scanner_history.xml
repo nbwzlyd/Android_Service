@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg_bg"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/actionbar_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <include
+            layout="@layout/actionbar_selected_layout"/>
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rel_scanner_history_controller"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/check_scanner_history_all"
+                style="@style/tv_title_secondary_style"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:drawableLeft="@drawable/checkbox_common_selector"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="全选"
+                />
+
+            <Button
+                android:id="@+id/btn_scanner_history_del"
+                style="@style/tv_title_white_style"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="2"
+                android:background="@color/main_red"
+                android:text="删除"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_scanner_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rel_scanner_history_controller"
+        android:layout_below="@id/actionbar_history"
+        />
+    <LinearLayout
+        android:id="@+id/ll_loaderrorlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/bg_main"
+        android:layout_below="@id/actionbar_history"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:paddingBottom="25dp" >
+        <com.tongcheng.lib.serv.ui.view.LoadErrLayout
+            android:id="@+id/loaderrorlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_errlayout_top_margin"
+            android:gravity="center_horizontal"
+            android:visibility="visible" />
+    </LinearLayout>
+</RelativeLayout>

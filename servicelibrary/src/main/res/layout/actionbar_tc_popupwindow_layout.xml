@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_tankuang_top"
+    android:orientation="vertical">
+
+    <com.tongcheng.lib.serv.ui.view.tcactionbar.AutoWidthListView
+        android:id="@+id/lv_popup_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+</LinearLayout>

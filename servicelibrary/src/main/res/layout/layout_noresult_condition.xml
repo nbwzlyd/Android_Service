@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal">
+    <!--@drawable/selector_btn_gray_border-->
+    <TextView
+        android:id="@+id/load_tv_condition"
+        style="@style/tv_info_secondary_style"
+        android:layout_width="wrap_content"
+        android:background="@drawable/btn_no_result_close"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/load_tv_condition"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/icon_no_result_close" />
+
+</RelativeLayout>

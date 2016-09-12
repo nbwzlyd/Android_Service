@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/tc_actionbar_height"
+        android:gravity="left|center_vertical"
+        android:clickable="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_actionbar_back"
+            android:layout_width="@dimen/tc_actionbar_height"
+            android:layout_height="@dimen/tc_actionbar_height"
+            android:layout_gravity="center_vertical"
+            android:scaleType="center"
+            android:src="@drawable/selector_navi_back" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_actionbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/navibar_title_text"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/img_actionbar_sanjiao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_actionbar_title"
+                android:layout_marginRight="6dp"
+                android:layout_toRightOf="@id/tv_actionbar_title"
+                android:src="@drawable/icon_sanjiao_wirte"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/rl_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/top_search_box_height"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:layout_toRightOf="@id/img_actionbar_sanjiao" >
+
+                <include layout="@layout/edittext_with_delete" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.tongcheng.lib.serv.ui.view.tcactionbar.ActionbarMenuItemView
+            android:id="@+id/menu_item1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+        </com.tongcheng.lib.serv.ui.view.tcactionbar.ActionbarMenuItemView>
+
+        <com.tongcheng.lib.serv.ui.view.tcactionbar.ActionbarMenuItemView
+            android:id="@+id/menu_item2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+        </com.tongcheng.lib.serv.ui.view.tcactionbar.ActionbarMenuItemView>
+    </LinearLayout>
+
+</LinearLayout>

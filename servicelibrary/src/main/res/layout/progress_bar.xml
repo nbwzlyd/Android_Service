@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:minWidth="190dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_alertdialog"
+        android:alpha="0.8">
+
+        <ProgressBar
+            android:id="@+id/center_process_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            style="@style/ProgressBar.Loading"/>
+
+        <TextView
+            android:id="@+id/top_process_promot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/center_process_bar"
+            android:maxWidth="95dp"
+            android:gravity="center|left"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:text="正在加载..."
+            android:textColor="#f8f8f8"
+            android:textSize="@dimen/text_size_info"/>
+
+        <TextView
+            android:id="@+id/tv_line"
+            android:layout_width="0.5dp"
+            android:layout_height="wrap_content"
+            android:minHeight="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/top_process_promot"
+            android:layout_centerVertical="true"
+            android:background="@color/main_secondary"/>
+
+        <ImageButton
+            android:id="@+id/imgbtn_guanbi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/tv_line"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_btn_alert_dialog"/>
+    </RelativeLayout>
+</RelativeLayout>

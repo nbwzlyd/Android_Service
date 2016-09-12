@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--定义Activity、Dialog的Theme，其它请移步-->
+
+    <!--Activity Begin-->
+
+    <!-- Activity基准样式 -->
+    <style name="Theme.All" parent="android:Theme.Holo.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="vpiCirclePageIndicatorStyle">@style/CustomCirclePageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/CalendarTabPageIndicator</item>
+        <item name="android:actionBarSize">@dimen/tc_actionbar_height</item>
+        <item name="android:actionBarItemBackground">@color/main_white</item>
+        <item name="android:actionMenuTextAppearance">@style/menuStyle</item>
+        <item name="android:actionMenuTextColor">@drawable/selector_tv_green</item>
+        <item name="android:actionBarStyle">@style/tcActionBarStyle</item>
+    </style>
+
+    <!--无标题栏-->
+    <style name="Theme.All.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--Window大背景-->
+    <style name="Theme.All.BackgroundMain">
+        <item name="android:windowBackground">@color/bg_main</item>
+    </style>
+
+    <!--Window无背景-->
+    <style name="Theme.All.BackgroundNull">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <!--无标题栏、Window大背景-->
+    <style name="Theme.All.NoActionBar.BackgroundMain">
+        <item name="android:windowBackground">@color/bg_main</item>
+    </style>
+
+    <!--无标题栏、Window无背景-->
+    <style name="Theme.All.NoActionBar.BackgroundNull">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="WindowAnimationNull">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+    <!--完全透明Activity-->
+    <style name="TransparentActivity" parent="@style/Theme.All.NoActionBar.BackgroundNull">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationNull</item>
+    </style>
+
+    <!--Activity End-->
+
+    <!-- ########################################################################### -->
+
+    <!--Dialog Begin-->
+
+    <!--全屏Dialog，默认阴暗背景-->
+    <style name="FullScreenDialog">
+        <item name="android:windowBackground">@color/main_black_50</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+
+    <!--全屏Dialog，无背景-->
+    <style name="FullScreenDialog.BackgroundNull">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <!--Dialog End-->
+</resources>

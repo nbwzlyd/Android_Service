@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/bg_list_window_rest">
+    <LinearLayout 
+        android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+        >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"
+	    android:orientation="horizontal" 
+	    android:gravity="center"
+	    android:paddingLeft="20dp"
+	    android:paddingRight="20dp">
+	     <TextView 
+	        android:id="@+id/uploading_progress_tv"
+	        android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:gravity="center"
+	   		android:textColor="@color/main_primary"
+	   		android:minWidth="100dp"/>
+	    <ProgressBar 
+	        android:id="@+id/uploading_progressbar"
+	        android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:layout_marginLeft="20dp"
+            style="@style/ProgressBar.Loading"/>
+	   
+	</LinearLayout>
+	<ImageView android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/line_bg_gray"/>
+	<Button 
+	    android:id="@+id/uploading_stop_btn"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_weight="1"
+	    android:text="停止上传"
+	    android:background="@drawable/selector_btn_dialog"
+            android:textColor="@color/c_tcolor_dark"
+            android:textSize="16sp"
+	    android:layout_gravity="center_horizontal"/>
+	</LinearLayout>
+</LinearLayout>

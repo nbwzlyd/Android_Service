@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- solid为填充颜色，如果不写，将是默认的黑色，我这里设置成白色 -->
+    <solid android:color="@color/main_green" />
+
+    <corners android:radius="4dp" />
+
+    <padding
+        android:bottom="5.5dp"
+        android:left="5.5dp" 
+        android:right="5.5dp"
+        android:top="5.5dp" />
+
+</shape>

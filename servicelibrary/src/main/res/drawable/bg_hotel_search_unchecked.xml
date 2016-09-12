@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--未选中转台-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- <selector xmlns:android="http://schemas.android.com/apk/res/android"> <item android:state_selected="false"> <shape android:shape="rectangle" > 填充的颜色 <solid android:color="@color/white_half"></solid> 设置按钮的四个角为弧形 android:radius 弧形的半径 <corners android:radius="5dip" /> padding：Button里面的文字与Button边界的间隔 <padding android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp" /> </shape> </item> <item android:state_selected="true"> <shape android:shape="rectangle"> <solid android:color="@color/lightblue" /> <corners android:radius="5dip" /> </shape> </item> </selector> -->
+
+    <corners
+        android:bottomLeftRadius="4dp"
+        android:bottomRightRadius="4dp"
+        android:topLeftRadius="4dp"
+        android:topRightRadius="4dp" />
+
+    <solid android:color="@color/white" />
+
+    <stroke
+        android:dashGap="0dp"
+        android:width="1dp"
+        android:color="@color/main_line" />
+
+</shape>
+<!-- <selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false">
+           <shape android:shape="rectangle" >
+            填充的颜色
+            <solid android:color="@color/white_half"></solid>
+            设置按钮的四个角为弧形
+            android:radius 弧形的半径
+            <corners android:radius="5dip" />
+            padding：Button里面的文字与Button边界的间隔
+            <padding android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+     <shape android:shape="rectangle">
+            <solid android:color="@color/lightblue" />
+            <corners android:radius="5dip" />
+         </shape>
+    </item> 
+</selector> -->
+
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--814添加，UED统一规范，只定义UED的样式-->
+
+    <!--Card样式统一-->
+    <style name="card_base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_marginRight">5dip</item>
+        <item name="android:paddingLeft">15dip</item>
+        <item name="android:paddingRight">15dip</item>
+    </style>
+
+    <style name="card1" parent="@style/card_base">
+        <item name="android:background">@drawable/bg_card_common</item>
+    </style>
+
+    <style name="card2_1" parent="@style/card_base">
+        <item name="android:background">@drawable/bg_halfcard_blue_common_top</item>
+    </style>
+
+    <style name="card2_2" parent="@style/card_base">
+        <item name="android:background">@drawable/bg_halfcard_white_common_bottom</item>
+    </style>
+
+    <style name="card2_3" parent="@style/card_base">
+        <item name="android:background">@drawable/bg_halfcard_white_common_top</item>
+    </style>
+
+    <style name="card2_4" parent="@style/card_base">
+        <item name="android:background">@drawable/bg_halfcard_blue_common_bottom</item>
+    </style>
+
+    <!--Button样式统一-->
+    <style name="btn_base" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="btn1" parent="@style/btn_base">
+        <item name="android:layout_height">44dip</item>
+        <item name="android:textColor">@color/main_white</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:background">@drawable/selector_btn_red_common</item>
+    </style>
+
+    <style name="btn2" parent="@style/btn_base">
+        <item name="android:layout_height">44dip</item>
+        <item name="android:textColor">@color/main_white</item>
+        <item name="android:textSize">@dimen/text_size_list</item>
+        <item name="android:background">@drawable/selector_btn_red_common</item>
+    </style>
+
+    <style name="btn3" parent="@style/btn_base">
+        <item name="android:layout_height">55dip</item>
+        <item name="android:textColor">@color/main_secondary</item>
+        <item name="android:textSize">@dimen/text_size_list</item>
+        <item name="android:background">@drawable/selector_btn_white_common</item>
+    </style>
+
+    <style name="BBfull" parent="@style/btn_base">
+        <item name="android:layout_height">50dip</item>
+        <item name="android:textColor">@color/main_white</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:background">@drawable/selector_btn_red_common_full</item>
+    </style>
+
+    <style name="BB1" parent="@style/btn_base">
+        <item name="android:layout_height">50dip</item>
+        <item name="android:layout_width">120dip</item>
+        <item name="android:textColor">@color/main_white</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:background">@drawable/selector_btn_red_common_full</item>
+    </style>
+
+    <style name="BB2">
+        <item name="android:layout_height">50dip</item>
+        <item name="android:background">@drawable/bg_white_top_line</item>
+    </style>
+
+    <!--筛选按钮样式统一-->
+    <!--CheckedTextView无法水平居中，建议此处用TextView + selected-->
+
+    <style name="sbtn_base" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">27dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/selector_btn_filter_common</item>
+        <item name="android:textSize">@dimen/text_size_hint</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:minWidth">76dip</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="sbtn1" parent="@style/sbtn_base">
+        <item name="android:background">@drawable/selector_btn_filter_common_rest</item>
+    </style>
+
+    <style name="sbtn2" parent="@style/sbtn_base">
+        <item name="android:background">@drawable/selector_btn_filter_common_multiselected</item>
+    </style>
+
+    <style name="sbtn3" parent="@style/sbtn_base">
+        <item name="android:background">@drawable/selector_btn_filter_common_moreselected</item>
+    </style>
+
+</resources>

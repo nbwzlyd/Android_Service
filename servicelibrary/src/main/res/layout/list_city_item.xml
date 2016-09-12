@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp" >
+
+    <TextView
+        android:id="@+id/list_item_tv"
+        style="@style/tv_list_primary_style"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dip"
+        android:gravity="left|center_vertical"
+        android:text="苏州" />
+
+    <ImageView
+        android:id="@+id/list_item_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dip"
+        android:background="@drawable/icon_select_common"
+        android:visibility="gone" />
+
+</RelativeLayout>

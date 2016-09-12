@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+	<TextView 
+	    android:id="@+id/tv_start_date"
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:paddingLeft="15dp"
+	    android:paddingRight="10dp"
+	    android:gravity="center_vertical"
+	    android:singleLine="true"
+	    android:drawableLeft="@drawable/icon_indicator_rest_checkmark"
+	    android:drawablePadding="5dp"
+	    android:textColor="@color/white"
+	    android:textSize="@dimen/c_tsize_micro"
+	    android:background="@color/flight_list_start_date_color"
+	    android:visibility="gone"/>
+    <com.tongcheng.lib.serv.module.scrollcalendar.view.CalendarPickerView
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:scrollbarStyle="outsideOverlay" />
+
+</LinearLayout>
